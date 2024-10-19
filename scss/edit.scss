@@ -1,0 +1,55 @@
+@use 'sass:color';
+@import 'partial/functions';
+@import 'partial/variables';
+@import 'partial/reset';
+@import 'partial/mixins';
+@import 'partial/flex';
+
+// Styles
+body {
+  font-family: $font-stack;
+}
+
+header {
+  text-align: center;
+
+
+  padding: rem(20px);
+}
+
+.form-section {
+  form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-top: rem(10px);
+    }
+
+    input, textarea {
+      padding: rem(5px);
+      font-size: rem(16px);
+    }
+
+    #save-btn {
+      margin-top: rem(20px);
+      padding: rem(10px);
+      background-color: $secondary-color;
+      border: none;
+      color: white;
+      cursor: pointer;
+      @include transition(background-color 0.3s ease);
+
+      &:hover {
+        background-color: color.adjust($secondary-color, $lightness: -10%);
+      }
+    }
+  }
+}
+
+.preview-section {
+  #resume-preview {
+    border: rem(1px) solid #ccc;
+    padding: rem(20px);
+  }
+}

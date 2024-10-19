@@ -1,0 +1,7 @@
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(rem(800px), 1fr));
+  gap: rem(20px);
+  justify-items: center;
+}
+

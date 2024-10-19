@@ -1,0 +1,10 @@
+.edit-page {
+  display: flex;
+  flex-direction: row;
+  @include flex-center;
+}
+
+.form-section, .preview-section {
+  width: 50%;
+  padding: rem(20px);
+}
