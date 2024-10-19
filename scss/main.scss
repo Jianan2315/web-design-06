@@ -1,12 +1,12 @@
 // Importing Partials
-@import 'partial/variables';
-@import 'partial/reset';
-@import 'partial/mixins';
-@import 'partial/functions';
-@import 'partial/placeholders';
-@import 'partial/thumbnails';
-@import 'partial/grid';
-@import 'partial/overlay';
+@import 'partial/themes/variables';
+@import 'partial/base/reset';
+@import 'partial/utils/mixins';
+@import 'partial/utils/functions';
+@import 'partial/utils/placeholders';
+@import 'partial/components/thumbnails';
+@import 'partial/layouts/grid';
+@import 'partial/components/overlay';
 
 // Styles
 body {

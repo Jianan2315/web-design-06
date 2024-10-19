@@ -1,9 +1,9 @@
 @use 'sass:color';
-@import 'partial/functions';
-@import 'partial/variables';
-@import 'partial/reset';
-@import 'partial/mixins';
-@import 'partial/flex';
+@import 'partial/utils/functions';
+@import 'partial/themes/variables';
+@import 'partial/base/reset';
+@import 'partial/utils/mixins';
+@import 'partial/layouts/flex';
 
 // Styles
 body {
